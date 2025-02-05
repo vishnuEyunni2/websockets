@@ -16,3 +16,5 @@ const useWebSocket = (url, onMessage) => {
 
   return socketRef.current;
 };
+
+export default useWebSocket;

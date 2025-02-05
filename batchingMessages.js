@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import useWebSocket from "./useWebSocket";
 
 const useBatchedMessages = (url, onBatchMessage, batchInterval = 100) => {
   const batchRef = useRef([]);
